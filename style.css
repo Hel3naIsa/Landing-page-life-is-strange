@@ -1,0 +1,172 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+body {
+  background: linear-gradient(to right, #0a4f6e, #000);
+  color: #ffffff;
+
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+  min-height: 80vh;
+
+}
+
+.hero-content p {
+  font-size: 30px;
+  line-height: 2;
+  max-width: 460px;
+  font-weight: 300;
+}
+*/
+
+.hero-text p {
+  font-size: 15px;
+  line-height: 1.6; 
+  font-weight: 300;
+  margin-bottom: 1.2em; 
+  text-align: left;
+  width: 100%;
+  max-width: 600px; 
+}
+
+
+.hero-text p:first-child {
+  font-weight: 400; 
+}
+
+
+.hero-text strong {
+  font-weight: 600;
+}
+
+
+.hero-content {
+  max-width: none;
+}
+
+
+.hero-content p:first-of-type {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+
+.hero-content p:first-of-type::first-line {
+  font-weight: 600;
+}
+
+.hero-content img {  
+    width: 600px;       
+  max-width: 200%;
+  margin-bottom: 30px;
+
+}
+
+.hero-content p {
+  font-size: 23px;
+  line-height: 2;
+  max-width: 460px;
+  font-weight: 300;
+
+}
+
+
+.hero-image {
+  flex-shrink: 0;
+
+}
+
+.hero-image img {
+  width: 270px;
+  margin-left: 130px;
+  margin-right: 70px;
+  transform: rotate(-0deg);
+  filter: drop-shadow(0 112px 25px rgba(0,0,0,0.4));
+    margin-top: -140px;
+
+}
+
+.games {
+  padding: 40px 10%;
+}
+
+.games h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.game-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  ;
+}
+
+.game-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 26px;
+  overflow: hidden;
+  width: 230px;
+  max-width: 350px;
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-6px);
+}
+
+.game-card img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+}
+
+.game-card h3 {
+  padding: 7px;
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+.game-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+
+.texto-hero p:last-child {
+  max-width: 900px !important; 
+  width: 100% !important;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.texto-hero p:first-child {
+  max-width: 980px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+.texto-hero {
+  max-width: none !important;
+}
